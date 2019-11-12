@@ -71,6 +71,17 @@ Hello World app
 
 Navigation app without using routing (small apps)
 
+```
+  floatingActionButton: FloatingActionButton(
+    onPressed: () {
+      Navigator.push(
+          context, MaterialPageRoute(builder: (context) => SecondPage()));
+    },
+    tooltip: 'Next',
+    child: Icon(Icons.navigate_next),
+  ),
+```
+
 ### routing
 
 Sample routing app with three screens
@@ -94,6 +105,15 @@ class App extends StatelessWidget {
     );
   }
 }
+
+  floatingActionButton: FloatingActionButton(
+    onPressed: () {
+      Navigator.pushNamed(context, '/SecondPage');
+    },
+    tooltip: 'Increment',
+    child: Icon(Icons.navigate_next),
+  ),
+
 ```
 
 ### build_layouts
