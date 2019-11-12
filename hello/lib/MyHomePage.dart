@@ -8,13 +8,8 @@ class MyHomePage extends StatelessWidget {
         title: Text('Hello'),
       ),
       body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            Text(
-              'Hello Flutter',
-            ),
-          ],
+        child: Text(
+          'Hello Flutter',
         ),
       ),
     );
