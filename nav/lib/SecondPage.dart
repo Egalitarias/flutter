@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'SecondPage.dart';
-
-class MyHomePage extends StatelessWidget {
+class SecondPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -14,7 +12,7 @@ class MyHomePage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-              'Home page',
+              'Second page',
             ),
           ],
         ),
