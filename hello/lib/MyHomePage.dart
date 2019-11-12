@@ -69,10 +69,6 @@ class _MyHomePageState extends State<MyHomePage> {
             Text(
               'Hello Flutter',
             ),
-            Text(
-              '$_counter',
-              style: Theme.of(context).textTheme.display1,
-            ),
           ],
         ),
       ),
