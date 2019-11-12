@@ -82,6 +82,24 @@ Navigation app without using routing (small apps)
   ),
 ```
 
+### image
+
+Sample image app
+
+```
+
+  assets:
+    - images/lake.jpg
+
+  Image.asset(
+    'images/lake.jpg',
+    width: 600,
+    height: 240,
+    fit: BoxFit.cover,
+  )
+```
+
+
 ### routing
 
 Sample routing app with three screens
