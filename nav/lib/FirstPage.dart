@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'SecondPage.dart';
 
-class MyHomePage extends StatelessWidget {
+class FirstPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -14,15 +14,15 @@ class MyHomePage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-              'Home page',
+              'First page',
             ),
           ],
         ),
       ),
       floatingActionButton: FloatingActionButton(
-        onPressed: () => {
+        onPressed: () {
           Navigator.push(
-              context, MaterialPageRoute(builder: (context) => SecondPage()))
+              context, MaterialPageRoute(builder: (context) => SecondPage()));
         },
         tooltip: 'Next',
         child: Icon(Icons.navigate_next),

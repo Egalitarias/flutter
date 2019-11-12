@@ -18,12 +18,11 @@ class SecondPage extends StatelessWidget {
         ),
       ),
       floatingActionButton: FloatingActionButton(
-        onPressed: () => {
-          Navigator.push(
-              context, MaterialPageRoute(builder: (context) => SecondPage()))
+        onPressed: () {
+          Navigator.pop(context);
         },
         tooltip: 'Next',
-        child: Icon(Icons.navigate_next),
+        child: Icon(Icons.done),
       ),
     );
   }
